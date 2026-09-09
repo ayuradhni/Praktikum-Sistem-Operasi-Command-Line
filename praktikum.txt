@@ -1,0 +1,70 @@
+1. mkdir SKU
+2. ls
+3. cd SKU
+4. pwd
+5. touch tugas.txt
+6. echo "Halo Ubuntu"
+7. echo "Tugas Sistem Operasi" > keterangan.txt
+8. cat keterangan.txt
+9. cp keterangan.txt salinan.txt
+10. ls -l
+11. ls -a
+12. mkdir latihan
+13. cd latihan
+14. touch data.txt
+15. echo "Data latihan" > data.txt
+16. cat data.txt
+17. cp data.txt data2.txt
+18. mv data2.txt hasil.txt
+19. ls -R
+20. du -sh .
+21. cd ..
+22. find . -name "tugas.txt"
+23. head keterangan.txt
+24. tail keterangan.txt
+25. wc keterangan.txt
+26. sort keterangan.txt
+27. grep "Tugas" keterangan.txt
+28. file keterangan.txt
+29. stat keterangan.txt
+30. ls -lh
+31. ls -l /home
+32. find . -maxdepth 2 -type f
+33. ls -l /etc
+34. ls -l /usr/bin | head -20
+35. ls -l /var/log
+36. find /usr/share -maxdepth 1 -type d
+37. uname -a
+38. uptime
+39. df -h
+40. free -h
+41. lsblk
+42. lscpu
+43. ps aux
+44. history | tail -20
+45. ip addr
+46. ip route
+47. who
+48. history
+49. env
+50. getent passwd
+51. date
+52. whoami
+53. hostname
+54. id
+55. groups
+56. cal
+57. du -h --max-depth=1 .
+58. uname -r
+59. ls -d */
+60. which bash
+61. echo $HOME
+62. echo $USER
+63. echo $SHELL
+64. ls -F
+65. ls -t
+66. du -sh *
+67. basename "$PWD"
+68. dirname "$PWD"
+69. printf "Halo dari Ubuntu\n"
+70. type cd
